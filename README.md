@@ -1,7 +1,7 @@
 # Kaggle LLM - AI 생성 text 감지를 위한 분류모델 경진대회
      
 
-
+가나라
 - url 주소 :
 https://www.kaggle.com/competitions/llm-detect-ai-generated-text/overview
 
