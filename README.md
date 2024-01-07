@@ -15,10 +15,11 @@ https://www.kaggle.com/competitions/llm-detect-ai-generated-text/overview
 
 ### 학습 키워드와 핵심역할 :
 
-     Encoder 기반 딥러닝 모델 vs Decoder 기반 딥러닝 모델     : 이호열
+     Encoder 기반 딥러닝 모델
+     vs Decoder 기반 딥러닝 모델          : 이호열
      중복데이터 처리방법 및 데이터 EDA     : 황석준
-     감정 분석의 정의와 코드구현     : 이재영
-     난독화의 정의와 코드구현     : 
+     감정 분석의 정의와 코드구현           : 이재영
+     난독화의 정의와 코드구현              : 
 
 
 - 개요 (분류모델선정 이유 및 진행방향 요약)
