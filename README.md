@@ -1,7 +1,7 @@
-# Kaggle LLM - AI 생성 text 감지를 위한 분류모델 경진대회
+# Kaggle LLM - AI 생성 text 감지를 위한 딥러닝 분류모델 경진대회
      
 
-가나라
+
 - url 주소 :
 https://www.kaggle.com/competitions/llm-detect-ai-generated-text/overview
 
@@ -15,37 +15,34 @@ https://www.kaggle.com/competitions/llm-detect-ai-generated-text/overview
 
 ### 학습 키워드와 핵심역할 :
 
-     텍스트 정제, 토큰화       : 이호열, 김소연
-     단어 빈도 분석            : 황석준
-     감정 분석                 : 이재영, 임예리
-     난독화                    : 정현기
+     Encoder 기반 딥러닝 모델 vs Decoder 기반 딥러닝 모델     : 이호열
+     중복데이터 처리방법 및 데이터 EDA     : 황석준
+     감정 분석의 정의와 코드구현     : 이재영
+     난독화의 정의와 코드구현     : 
 
 
 - 개요 (분류모델선정 이유 및 진행방향 요약)
-    - LR, XGB
-    - RF, CatBoost
+    - BERT, RoBERTa, GPT
 
 
 - 데이터 EDA
 
     - train_essay : (✔내용 추가 예정)
+      - train 데이터 증강
       - target의 불균형 유무
       - 이상치 유무
       - Null 값의 유무
-      - 학습데이터의 크기 (외부데이터 확보 필요유무)
-      - 로그스케일링 등 인코딩 방법 선정 (캐글 트래킹)
+      - 로그스케일링 등 추가 벡터의 인코딩 방법 선정
       - 새로운 특성의 생성 유무
+      - matplotlib을 통한 train 데이터 시각화
 
-    - train_prompt : 해당 text의 주제.
+    - train_prompt : 해당 찬반토론 기반 text의 주제.
            - 0 : Car-free cities
            - 1 : Does the electoral college work?
 
     - 전처리 진행
       
-        - 텍스트 정제, 토큰화
-          - (✔내용 추가 예정)
-          
-        - 단어 빈도 분석
+        - 중복데이터 처리 및 데이터 증강
           - (✔내용 추가 예정)
           
         - 감정 분석
@@ -55,8 +52,6 @@ https://www.kaggle.com/competitions/llm-detect-ai-generated-text/overview
           - (✔내용 추가 예정)
           - 'https://link.springer.com/article/10.1007/s40979-023-00146-z' 관련 논문 참고했습니다
           
-        - Augmentation (보류)
-          - 직접조사
        
 
 
