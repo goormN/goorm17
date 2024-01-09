@@ -23,7 +23,9 @@ https://www.kaggle.com/competitions/llm-detect-ai-generated-text/overview
 
 
 - 개요 (분류모델선정 이유 및 진행방향 요약)
-    - BERT, RoBERTa, GPT
+     - BERT, RoBERTa, DistilBERT
+     - GPT
+     - RWKV
 
 
 - 데이터 EDA
@@ -42,17 +44,17 @@ https://www.kaggle.com/competitions/llm-detect-ai-generated-text/overview
            - 1 : Does the electoral college work?
 
     - 전처리 진행
-      
-        - 중복데이터 처리 및 데이터 증강
+      - 중복데이터 처리 및 데이터 증강
           - (✔내용 추가 예정)
           
-        - 감정 분석
+      - 감정 분석
           - (✔내용 추가 예정)
           
-        - 난독화
+      - 난독화
           - (✔내용 추가 예정)
           - 'https://link.springer.com/article/10.1007/s40979-023-00146-z' 관련 논문 참고했습니다
-          
+           
+      - RAG 모듈    
        
 
 
