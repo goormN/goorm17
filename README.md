@@ -18,6 +18,7 @@ https://www.kaggle.com/competitions/llm-detect-ai-generated-text/overview
      Encoder 기반 딥러닝 모델
      vs Decoder 기반 딥러닝 모델 차이       
      중복데이터 처리방법 및 데이터 EDA      
+     BPE 토크나이저와 WordPiece 토크나이저의 성능차이
      감정 분석의 정의와 코드구현            
      난독화 문제 대비의 정의와 코드구현     
      OOV(혹은 오탈자) 문제 대비의 정의와 코드구현
@@ -25,7 +26,7 @@ https://www.kaggle.com/competitions/llm-detect-ai-generated-text/overview
 
 
 - 개요 (분류모델선정 이유 및 진행방향 요약)
-     - BERT, RoBERTa, DistilBERT
+     - RoBERTa, DistilBERT, BERT
      - GPT
      - RWKV
 
